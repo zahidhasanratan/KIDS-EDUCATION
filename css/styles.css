@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* font-family: "Quicksand", serif; */
+/* font-family: "Raleway", serif; */
+/*Common Styling Start*/
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+/*Common Styling End*/
+/*Nav Section Start*/
+header {
+  margin-top: 20px;
+}
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_wrapper .logo {
+  display: flex;
+  align-items: center;
+  column-gap: 11px;
+}
+.header_wrapper .logo h5 {
+  color: #111111;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+}
+.navbar {
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 32px;
+}
+.navbar ul li a {
+  
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+}
+.navbar ul li:nth-child(1) a {
+    color: #fea301;
+}
+.navbar ul li:nth-child(2) a {
+    color: #01ACFD;
+}
+.navbar ul li:nth-child(3) a {
+    color: #05D4DF;
+}
+.navbar ul li:nth-child(4) a {
+    color: #5D58EF;
+}
+
+
+.header_wrapper .nav_button{
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: "Quicksand", serif;
+    padding: 10px 60px;
+    background-color: #FEA301;
+    border-radius: 12px;
+    border: transparent;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.header_wrapper .nav_button:hover{
+background-color: #5D58EF;
+}
+/*Nav Section End*/
+/*Common Styling Start*/
+
+/*Common Styling End*/
+/*Common Styling Start*/
+
+/*Common Styling End*/
+/*Common Styling Start*/
+
+/*Common Styling End*/
+/*Common Styling Start*/
+
+/*Common Styling End*/
+/*Common Styling Start*/
+
+/*Common Styling End*/
+/*Common Styling Start*/
+
+/*Common Styling End*/
+/*Common Styling Start*/
+
+/*Common Styling End*/
