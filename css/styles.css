@@ -48,162 +48,267 @@ header {
   column-gap: 32px;
 }
 .navbar ul li a {
-  
   font-size: 1.1rem;
   font-weight: bold;
   font-family: "Quicksand", serif;
 }
 .navbar ul li:nth-child(1) a {
-    color: #fea301;
+  color: #fea301;
 }
 .navbar ul li:nth-child(2) a {
-    color: #01ACFD;
+  color: #01acfd;
 }
 .navbar ul li:nth-child(3) a {
-    color: #05D4DF;
+  color: #05d4df;
 }
 .navbar ul li:nth-child(4) a {
-    color: #5D58EF;
+  color: #5d58ef;
 }
 
-
-.header_wrapper .nav_button{
-    color: #FFFFFF;
-    font-size: 1.1rem;
-    font-weight: 600;
-    font-family: "Quicksand", serif;
-    padding: 10px 60px;
-    background-color: #FEA301;
-    border-radius: 12px;
-    border: transparent;
-    cursor: pointer;
-    transition: all linear .3s;
+.header_wrapper .nav_button {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: "Quicksand", serif;
+  padding: 10px 60px;
+  background-color: #fea301;
+  border-radius: 12px;
+  border: transparent;
+  cursor: pointer;
+  transition: all linear 0.3s;
 }
-.header_wrapper .nav_button:hover{
-background-color: #5D58EF;
+.header_wrapper .nav_button:hover {
+  background-color: #5d58ef;
 }
 /*Nav Section End*/
 /*Banner Styling Start*/
-#banner{
-    margin-top: 20px;
+#banner {
+  margin-top: 20px;
 }
 .hero_wrapper {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
 }
-.hero_text h1{
-    font-weight: bold;
-    font-size: 3.3rem;
-    font-family: "Quicksand", serif;
-    margin-bottom: 24px;
-    color: #111111;
-}
-
-.hero_text h1 .first_span{
-color: #FEA301;
-}
-.hero_text h1 .second_span{
-color: #01ACFD;
+.hero_text h1 {
+  font-weight: bold;
+  font-size: 3.3rem;
+  font-family: "Quicksand", serif;
+  margin-bottom: 24px;
+  color: #111111;
 }
 
+.hero_text h1 .first_span {
+  color: #fea301;
+}
+.hero_text h1 .second_span {
+  color: #01acfd;
+}
 
-.hero_text p{
-    color: #111111;
-    font-size: 1.1rem;
-    font-family: "Quicksand", serif;
-    margin-bottom: 24px;
+.hero_text p {
+  color: #111111;
+  font-size: 1.1rem;
+  font-family: "Quicksand", serif;
+  margin-bottom: 24px;
 }
-.hero_text .hero_button{
-    color: white;
-    font-size: 1.1rem;
-    font-family: "Quicksand", serif;
-    background-color: #111111;
-    padding: 10px 47px;
-    border: transparent;
-    border-radius: 12px;
-    font-weight: bold;
-    transition: all linear 0.3s;
-    cursor: pointer;
+.hero_text .hero_button {
+  color: white;
+  font-size: 1.1rem;
+  font-family: "Quicksand", serif;
+  background-color: #111111;
+  padding: 10px 47px;
+  border: transparent;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: all linear 0.3s;
+  cursor: pointer;
 }
-.hero_text .hero_button:hover{
-background-color: #01ACFD;;
+.hero_text .hero_button:hover {
+  background-color: #01acfd;
 }
-.hero_image{
-    display: flex;
-    justify-content: flex-end;
+.hero_image {
+  display: flex;
+  justify-content: flex-end;
 }
 /*Banner Styling End*/
-/*Common Styling Start*/
 
-/*Common Styling End*/
+/*Curriculum Styling Start*/
+#curriculum {
+  background-image: url(/assets/bg.png);
+  background-repeat: no-repeat;
+}
+#curriculum h1 {
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  font-size: 2.7rem;
+  font-family: "Quicksand", serif;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+#curriculum .curriculum_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-bottom: 80px;
+}
+.curriculum_card {
+  border: 1.5px solid #DEF5FF;
+  border-radius: 19px;
+  background: radial-gradient(circle at top center, #def5ff 0%, #ffffff 40%);
+
+}
+
+.curriculum_cardtwo {
+  border: 1.5px solid #FFF4DC;
+  border-radius: 19px;
+  background: radial-gradient(circle at top center, #FFF4DC 0%, #ffffff 40%);
+
+}
+.curriculum_cardthree {
+  border: 1.5px solid #F2E8FF;
+  border-radius: 19px;
+  background: radial-gradient(circle at top center, #F2E8FF 0%, #ffffff 40%);
+
+}
+
+.card_wrapper {
+  text-align: center;
+}
+.card_wrapper img {
+  padding-top: 52px;
+  padding-bottom: 32px;
+}
+.card_wrapper h3 {
+  color: #202020;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+  margin-bottom: 33px;
+}
+
+.card_wrapper p {
+  color: #808080;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Quicksand", serif;
+  margin-bottom: 33px;
+}
+
+.card_wrapper a {
+  display: inline-block;
+  color: #64c8ff;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+  margin-bottom: 33px;
+}
+
+.curriculum_cardtwo a {
+  display: inline-block;
+  color: #FBBA56;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+  margin-bottom: 33px;
+}
+
+.curriculum_cardthree a {
+  display: inline-block;
+  color: #8700FF;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+  margin-bottom: 33px;
+}
+.curriculum_arrow {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 60px;
+}
+.curriculum_arrow button {
+    background-color: #FEA301;
+    /* padding: 17px; */
+    border-radius: 50%;
+    border: transparent;
+    height: 60px;
+    width: 60px;
+    color: white;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.curriculum_arrow button:hover {
+    color: black;
+    background-color: #01acfd;
+}
+/*Curriculum Styling End*/
+
 /*Footer Start*/
-#footer{
-    background-color: #01ACFD;
+#footer {
+  background-color: #01acfd;
 }
 .footer_content {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: space-between;
-    padding: 120px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  padding: 120px 0;
 }
-.footer_left_wrapper .footer-logo{
-    display: flex;
-    column-gap: 10px;
-    align-items: center;
-    margin-bottom: 35px;
+.footer_left_wrapper .footer-logo {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  margin-bottom: 35px;
 }
-.footer-logo-title h3{
-    color: white;
-    font-family: "Quicksand", serif;
-    font-size: 2.5rem;
-    font-weight: bold;
-    line-height: 2rem;
+.footer-logo-title h3 {
+  color: white;
+  font-family: "Quicksand", serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 2rem;
 }
-.footer_left_wrapper p{
-    color: white;
-    font-family: "Quicksand", serif;
-    font-size: 1rem;
+.footer_left_wrapper p {
+  color: white;
+  font-family: "Quicksand", serif;
+  font-size: 1rem;
 }
-.footer-links{
-    margin: 0 auto;
+.footer-links {
+  margin: 0 auto;
 }
-.footer-links h3{
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-family: "Quicksand", serif;
-    margin-bottom: 32px;
+.footer-links h3 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+  margin-bottom: 32px;
 }
 .footer-links ul li {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-.footer-links ul li a{
-    color: white;
-    font-size: 1.2rem;
-    font-family: "Quicksand", serif;
+.footer-links ul li a {
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Quicksand", serif;
 }
 
-.footer-social{
-
+.footer-social {
 }
-.footer-social h3{
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-family: "Quicksand", serif;
-    margin-bottom: 32px;
+.footer-social h3 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+  margin-bottom: 32px;
 }
 .social-image {
-    display: flex;
-    column-gap: 11px;
-    justify-content: flex-start;
+  display: flex;
+  column-gap: 11px;
+  justify-content: flex-start;
 }
 
 /*Footer End*/
-/*Common Styling Start*/
-
-/*Common Styling End*/
 /*Common Styling Start*/
 
 /*Common Styling End*/
