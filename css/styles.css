@@ -83,9 +83,57 @@ header {
 background-color: #5D58EF;
 }
 /*Nav Section End*/
-/*Common Styling Start*/
+/*Banner Styling Start*/
+#banner{
+    margin-top: 20px;
+}
+.hero_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.hero_text h1{
+    font-weight: bold;
+    font-size: 3.3rem;
+    font-family: "Quicksand", serif;
+    margin-bottom: 24px;
+    color: #111111;
+}
 
-/*Common Styling End*/
+.hero_text h1 .first_span{
+color: #FEA301;
+}
+.hero_text h1 .second_span{
+color: #01ACFD;
+}
+
+
+.hero_text p{
+    color: #111111;
+    font-size: 1.1rem;
+    font-family: "Quicksand", serif;
+    margin-bottom: 24px;
+}
+.hero_text .hero_button{
+    color: white;
+    font-size: 1.1rem;
+    font-family: "Quicksand", serif;
+    background-color: #111111;
+    padding: 10px 47px;
+    border: transparent;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+.hero_text .hero_button:hover{
+background-color: #01ACFD;;
+}
+.hero_image{
+    display: flex;
+    justify-content: flex-end;
+}
+/*Banner Styling End*/
 /*Common Styling Start*/
 
 /*Common Styling End*/
