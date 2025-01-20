@@ -137,9 +137,70 @@ background-color: #01ACFD;;
 /*Common Styling Start*/
 
 /*Common Styling End*/
-/*Common Styling Start*/
+/*Footer Start*/
+#footer{
+    background-color: #01ACFD;
+}
+.footer_content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    padding: 120px 0;
+}
+.footer_left_wrapper .footer-logo{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.footer-logo-title h3{
+    color: white;
+    font-family: "Quicksand", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+.footer_left_wrapper p{
+    color: white;
+    font-family: "Quicksand", serif;
+    font-size: 1rem;
+}
+.footer-links{
+    margin: 0 auto;
+}
+.footer-links h3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Quicksand", serif;
+    margin-bottom: 32px;
+}
+.footer-links ul li {
+    margin-bottom: 20px;
+}
+.footer-links ul li a{
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Quicksand", serif;
+}
 
-/*Common Styling End*/
+.footer-social{
+
+}
+.footer-social h3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Quicksand", serif;
+    margin-bottom: 32px;
+}
+.social-image {
+    display: flex;
+    column-gap: 11px;
+    justify-content: flex-start;
+}
+
+/*Footer End*/
 /*Common Styling Start*/
 
 /*Common Styling End*/
