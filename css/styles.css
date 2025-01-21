@@ -288,10 +288,7 @@ header {
 
 }
 #ourStory h3{
-  color: #000000;
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-family: "Quicksand", serif;
+  
 }
 .gradient_wrapper {
   background: linear-gradient(to top, #ffdc8f, #ffffff);
@@ -332,8 +329,38 @@ header {
   margin-bottom: 57px;
 }
 .story_content{
-  padding: 0 35px;
+  padding: 0 30px;
 }
+
+.large_story .large_card h3{
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+  margin-bottom: 45px;
+}
+
+.large_story .large_card p {
+  color: #666666;
+  line-height: 1.6rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Raleway", serif;
+  margin-bottom: 34px;
+  padding-bottom: 34px;
+}
+.large_story .large_card .large_date {
+  background-color: #3CD8E8;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 47px;
+  font-size: 1rem;
+  position: absolute;
+  transform: translateY(-85px);
+  font-weight: 400;
+  font-family: "Raleway", serif;
+}
+
 
 /*Our Story End*/
 
