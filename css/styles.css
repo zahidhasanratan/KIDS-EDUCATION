@@ -355,11 +355,54 @@ header {
   font-size: 1rem;
   position: absolute;
   transform: translateY(-85px);
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Raleway", serif;
 }
 
 
+.small_story_wrapper{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+
+}
+
+.small_card_wrapper{
+  background-color: white;
+  border: transparent;
+  border-radius: 16px;
+}
+
+.small_card_wrapper img{
+width: 100%;
+height: auto;
+border-top-left-radius: 16px;
+border-top-right-radius: 16px;
+margin-bottom: 38px;
+}
+
+.small_card_wrapper h3 {
+  color: #000000;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+}
+
+.small_card_wrapper .small_date {
+  background-color: #3CD8E8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 47px;
+  font-size: 1rem;
+  position: absolute;
+  transform: translateY(-64px);
+  font-weight: 400;
+  font-family: "Raleway", serif;
+}
+.story_content_small{
+  padding: 0 20px;
+}
 /*Our Story End*/
 
 
