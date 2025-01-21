@@ -25,6 +25,14 @@ ul li {
 
 /*Common Styling End*/
 /*Nav Section Start*/
+.marque_container {
+  overflow: hidden;
+  padding: 10px 10px;
+  position: relative;
+  font-family: "Quicksand", serif;
+  font-weight: bold;
+}
+
 header {
   margin-top: 20px;
 }
