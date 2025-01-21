@@ -56,7 +56,8 @@ header {
   font-family: "Quicksand", serif;
 }
 
-.navbar {}
+.navbar {
+}
 
 .navbar ul {
   display: flex;
@@ -165,7 +166,7 @@ header {
 
 /*Curriculum Styling Start*/
 #curriculum {
-  background-image: url('https://zahidhasanratan.github.io/KIDS-EDUCATION/assets/bg.png');
+  background-image: url("https://zahidhasanratan.github.io/KIDS-EDUCATION/assets/bg.png");
   background-repeat: no-repeat;
 }
 
@@ -187,23 +188,21 @@ header {
 }
 
 .curriculum_card {
-  border: 1.5px solid #DEF5FF;
+  border: 1.5px solid #def5ff;
   border-radius: 19px;
   background: linear-gradient(to bottom, #def5ff, #ffffff);
 }
 
 .curriculum_cardtwo {
-  border: 1.5px solid #FFF4DC;
+  border: 1.5px solid #fff4dc;
   border-radius: 19px;
-  background: linear-gradient(to bottom, #FFF4DC, #ffffff);
-
+  background: linear-gradient(to bottom, #fff4dc, #ffffff);
 }
 
 .curriculum_cardthree {
-  border: 1.5px solid #F2E8FF;
+  border: 1.5px solid #f2e8ff;
   border-radius: 19px;
-  background: linear-gradient(to bottom, #F2E8FF, #ffffff);
-
+  background: linear-gradient(to bottom, #f2e8ff, #ffffff);
 }
 
 .card_wrapper {
@@ -244,7 +243,7 @@ header {
 
 .curriculum_cardtwo a {
   display: inline-block;
-  color: #FBBA56;
+  color: #fbba56;
   font-size: 1rem;
   font-weight: bold;
   font-family: "Quicksand", serif;
@@ -253,7 +252,7 @@ header {
 
 .curriculum_cardthree a {
   display: inline-block;
-  color: #8700FF;
+  color: #8700ff;
   font-size: 1rem;
   font-weight: bold;
   font-family: "Quicksand", serif;
@@ -270,7 +269,7 @@ header {
 }
 
 .curriculum_arrow button {
-  background-color: #FEA301;
+  background-color: #fea301;
   border-radius: 50%;
   border: transparent;
   height: 60px;
@@ -287,19 +286,17 @@ header {
 
 /*Curriculum Styling End*/
 
-
 /*Our Story Start*/
 #ourStory {
-  background-image: url('https://zahidhasanratan.github.io/KIDS-EDUCATION/assets/bg.png');
+  background-image: url("https://zahidhasanratan.github.io/KIDS-EDUCATION/assets/bg.png");
   background-repeat: no-repeat;
-
 }
 
-#ourStory h3 {}
+#ourStory h3 {
+}
 
 .gradient_wrapper {
   background: linear-gradient(to top, #ffdc8f, #ffffff);
-
 }
 
 #ourStory h2 {
@@ -316,8 +313,6 @@ header {
   grid-template-columns: repeat(2, 1fr);
   gap: 18px;
 }
-
-
 
 #ourStory .story_wrapper .large_card {
   background-color: white;
@@ -355,7 +350,7 @@ header {
 }
 
 .large_card .large_date {
-  background-color: #3CD8E8;
+  background-color: #3cd8e8;
   color: white;
   padding: 14px 28px;
   border-radius: 47px;
@@ -366,12 +361,10 @@ header {
   font-family: "Raleway", serif;
 }
 
-
 .small_story_wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-
 }
 
 .small_card_wrapper {
@@ -407,21 +400,20 @@ header {
   font-family: "Raleway", serif;
 }
 
-
 .small_card_wrapper:nth-child(1) .small_date {
-  background-color: #3CD8E8;
+  background-color: #3cd8e8;
 }
 
 .small_card_wrapper:nth-child(2) .small_date {
-  background-color: #95B226;
+  background-color: #95b226;
 }
 
 .small_card_wrapper:nth-child(3) .small_date {
-  background-color: #5D58F0;
+  background-color: #5d58f0;
 }
 
 .small_card_wrapper:nth-child(4) .small_date {
-  background-color: #95B226;
+  background-color: #95b226;
 }
 
 .story_content_small {
@@ -447,11 +439,10 @@ header {
 }
 
 .story_button button:hover {
-  background-color: #01ACFD;
+  background-color: #01acfd;
 }
 
 /*Our Story End*/
-
 
 /*Footer Start*/
 #footer {
@@ -508,7 +499,8 @@ header {
   font-family: "Quicksand", serif;
 }
 
-.footer-social {}
+.footer-social {
+}
 
 .footer-social h3 {
   color: white;

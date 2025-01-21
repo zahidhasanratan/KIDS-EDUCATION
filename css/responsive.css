@@ -1,34 +1,124 @@
-@media screen and (max-width:576px) {
-    .marque_container{
-        display: none;
-    }
-    .header_wrapper {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 10px;
-        align-items: center;
-    }
-    .header_wrapper .logo h5{
-        display: none;
-    }
+@media screen and (max-width: 576px) {
+  .marque_container {
+    display: none;
+  }
+  .header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+  }
+  .header_wrapper .logo h5 {
+    display: none;
+  }
 
-    .header_wrapper .logo img {
-        height: auto;
-        width: 50px;
-    }
-    .navbar{
-        display: none;
-    }
-    .header_wrapper .nav_button{
-        display: none;
-    }
-    .hamburgericon i {
-        font-size: 30px;
-    }
+  .header_wrapper .logo img {
+    height: auto;
+    width: 50px;
+  }
+  .navbar {
+    display: none;
+  }
+  .header_wrapper .nav_button {
+    display: none;
+  }
+  .hamburgericon {
+    display: block;
+  }
+  .hamburgericon i {
+    font-size: 30px;
+  }
+  .header_wrapper {
+    border: 1px solid orange;
+    padding: 15px 30px;
+    margin: -20px;
+  }
+  #curriculum h1 {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.7rem;
+    font-family: "Quicksand", serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  #curriculum .curriculum_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 28px;
+    padding: 0 17px;
+    margin-bottom: 80px;
+  }
+  .curriculum_arrow{
+    display: none;
+  }
+  #ourStory h2 {
+    color: #000000;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Quicksand", serif;
+    margin-bottom: 20px;
 }
-
-@media screen and (min-width:577px) {
-.hamburgericon{
+.large_story{
     display: none;
 }
+#ourStory .story_wrapper {
+    display: flex;
+    padding: 0 16px;
+    justify-content: space-between;
+}
+.small_card_wrapper .small_date {
+    color: white;
+    padding: 8px 18px;
+    border-radius: 47px;
+    font-size: 0.6rem;
+    position: absolute;
+    transform: translateY(-49px);
+    font-weight: 400;
+    font-family: "Raleway", serif;
+}
+.small_card_wrapper h3 {
+    color: #000000;
+    font-size: 0.6rem;
+    line-height: 1rem;
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-family: "Quicksand", serif;
+}
+#ourStory .story_wrapper img {
+    width: 100%;
+    border-top-left-radius: 16px;
+    height: auto;
+    overflow: hidden;
+    border-top-right-radius: 16px;
+    margin-bottom: 30px;
+}
+.story_button button {
+    font-family: "Quicksand", serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 8px 50px;
+    background-color: black;
+    border-radius: 12px;
+    border: transparent;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.footer_content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 120px 15px;
+}
+.footer-links{
+    width: 100%;
+    margin-top: 32px;
+}
+}
+
+@media screen and (min-width: 577px) {
+  .hamburgericon {
+    display: none;
+  }
 }
