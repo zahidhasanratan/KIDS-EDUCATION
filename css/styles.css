@@ -309,16 +309,14 @@ header {
   gap: 18px;
 }
 
-#ourStory .story_wrapper .large_story {
-  
-}
 
-#ourStory .story_wrapper .large_story .large_card {
+
+#ourStory .story_wrapper .large_card {
   background-color: white;
   border-radius: 16px;
 }
 
-#ourStory .story_wrapper .large_story img {
+#ourStory .story_wrapper img {
   width: 100%;
   border-top-left-radius: 16px;
   height: auto;
@@ -330,7 +328,7 @@ header {
   padding: 0 30px;
 }
 
-.large_story .large_card h3{
+.large_card h3{
   color: #000000;
   font-size: 1.5rem;
   font-weight: bold;
@@ -338,16 +336,15 @@ header {
   margin-bottom: 45px;
 }
 
-.large_story .large_card p {
+.large_card p {
   color: #666666;
   line-height: 1.6rem;
   font-size: 1rem;
   font-weight: 500;
   font-family: "Raleway", serif;
-  margin-bottom: 34px;
   padding-bottom: 34px;
 }
-.large_story .large_card .large_date {
+.large_card .large_date {
   background-color: #3CD8E8;
   color: white;
   padding: 14px 28px;
@@ -396,12 +393,32 @@ margin-bottom: 38px;
   border-radius: 47px;
   font-size: 1rem;
   position: absolute;
-  transform: translateY(-64px);
+  transform: translateY(-80px);
   font-weight: 400;
   font-family: "Raleway", serif;
 }
 .story_content_small{
   padding: 0 20px;
+}
+
+.story_button{
+  padding: 60px 0;
+  text-align: center;
+}
+.story_button button{
+  font-family: "Quicksand", serif;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px 60px;
+  background-color: black;
+  border-radius: 12px;
+  border: transparent;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+.story_button button:hover{
+  background-color: #01ACFD;
 }
 /*Our Story End*/
 
