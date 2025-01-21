@@ -263,7 +263,6 @@ header {
 
 .curriculum_arrow button {
   background-color: #FEA301;
-  /* padding: 17px; */
   border-radius: 50%;
   border: transparent;
   height: 60px;
@@ -316,8 +315,7 @@ header {
 
 #ourStory .story_wrapper .large_story .large_card {
   background-color: white;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
+  border-radius: 16px;
 }
 
 #ourStory .story_wrapper .large_story img {
