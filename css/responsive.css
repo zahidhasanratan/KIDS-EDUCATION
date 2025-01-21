@@ -1,0 +1,34 @@
+@media screen and (max-width:576px) {
+    .marque_container{
+        display: none;
+    }
+    .header_wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        align-items: center;
+    }
+    .header_wrapper .logo h5{
+        display: none;
+    }
+
+    .header_wrapper .logo img {
+        height: auto;
+        width: 50px;
+    }
+    .navbar{
+        display: none;
+    }
+    .header_wrapper .nav_button{
+        display: none;
+    }
+    .hamburgericon i {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:577px) {
+.hamburgericon{
+    display: none;
+}
+}

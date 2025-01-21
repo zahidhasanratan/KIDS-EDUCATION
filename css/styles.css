@@ -294,9 +294,9 @@ header {
   background-repeat: no-repeat;
 
 }
-#ourStory h3{
-  
-}
+
+#ourStory h3 {}
+
 .gradient_wrapper {
   background: linear-gradient(to top, #ffdc8f, #ffffff);
 
@@ -332,11 +332,12 @@ header {
   border-top-right-radius: 16px;
   margin-bottom: 57px;
 }
-.story_content{
+
+.story_content {
   padding: 0 30px;
 }
 
-.large_card h3{
+.large_card h3 {
   color: #000000;
   font-size: 1.5rem;
   font-weight: bold;
@@ -352,6 +353,7 @@ header {
   font-family: "Raleway", serif;
   padding-bottom: 34px;
 }
+
 .large_card .large_date {
   background-color: #3CD8E8;
   color: white;
@@ -365,25 +367,25 @@ header {
 }
 
 
-.small_story_wrapper{
+.small_story_wrapper {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 
 }
 
-.small_card_wrapper{
+.small_card_wrapper {
   background-color: white;
   border: transparent;
   border-radius: 16px;
 }
 
-.small_card_wrapper img{
-width: 100%;
-height: auto;
-border-top-left-radius: 16px;
-border-top-right-radius: 16px;
-margin-bottom: 38px;
+.small_card_wrapper img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  margin-bottom: 38px;
 }
 
 .small_card_wrapper h3 {
@@ -413,6 +415,7 @@ margin-bottom: 38px;
 .small_card_wrapper:nth-child(2) .small_date {
   background-color: #95B226;
 }
+
 .small_card_wrapper:nth-child(3) .small_date {
   background-color: #5D58F0;
 }
@@ -421,15 +424,16 @@ margin-bottom: 38px;
   background-color: #95B226;
 }
 
-.story_content_small{
+.story_content_small {
   padding: 0 20px;
 }
 
-.story_button{
+.story_button {
   padding: 60px 0;
   text-align: center;
 }
-.story_button button{
+
+.story_button button {
   font-family: "Quicksand", serif;
   color: white;
   font-weight: bold;
@@ -441,9 +445,11 @@ margin-bottom: 38px;
   cursor: pointer;
   transition: all linear 0.3s;
 }
-.story_button button:hover{
+
+.story_button button:hover {
   background-color: #01ACFD;
 }
+
 /*Our Story End*/
 
 
