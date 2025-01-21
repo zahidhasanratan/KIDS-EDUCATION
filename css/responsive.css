@@ -109,6 +109,39 @@
     padding-bottom: 15px;
     font-family: "Quicksand", serif;
 }
+.hero_image {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 28px;
+}
+.card_wrapper h3 {
+    color: #202020;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: "Quicksand", serif;
+    margin-bottom: 33px;
+}
+.card_wrapper p {
+    color: #808080;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: "Raleway", serif;
+    margin-bottom: 33px;
+}
+.card_wrapper a {
+    display: inline-block;
+    color: #64c8ff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: "Quicksand", serif;
+    margin-bottom: 33px;
+}
+.small_story_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
 #ourStory .story_wrapper img {
     width: 100%;
     border-top-left-radius: 16px;
@@ -132,7 +165,7 @@
 .footer_content {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 120px 15px;
+    padding: 90px 15px;
 }
 .footer-links{
     width: 100%;
