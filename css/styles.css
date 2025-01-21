@@ -285,8 +285,20 @@ header {
 #ourStory {
   background-image: url(/assets/bg.png);
   background-repeat: no-repeat;
+
 }
-#ourStory h2{
+#ourStory h3{
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+}
+.gradient_wrapper {
+  background: linear-gradient(to top, #ffdc8f, #ffffff);
+
+}
+
+#ourStory h2 {
   color: #000000;
   font-size: 2.6rem;
   text-align: center;
@@ -294,6 +306,35 @@ header {
   font-family: "Quicksand", serif;
   margin-bottom: 80px;
 }
+
+#ourStory .story_wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+#ourStory .story_wrapper .large_story {
+  
+}
+
+#ourStory .story_wrapper .large_story .large_card {
+  background-color: white;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+#ourStory .story_wrapper .large_story img {
+  width: 100%;
+  border-top-left-radius: 16px;
+  height: auto;
+  overflow: hidden;
+  border-top-right-radius: 16px;
+  margin-bottom: 57px;
+}
+.story_content{
+  padding: 0 35px;
+}
+
 /*Our Story End*/
 
 
