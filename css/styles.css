@@ -1,66 +1,80 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 /* font-family: "Quicksand", serif; */
 /* font-family: "Raleway", serif; */
 /*Common Styling Start*/
 a {
   text-decoration: none;
 }
+
 ul li {
   list-style: none;
 }
+
 .container {
   max-width: 1160px;
   margin: 0 auto;
 }
+
 /*Common Styling End*/
 /*Nav Section Start*/
 header {
   margin-top: 20px;
 }
+
 .header_wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .header_wrapper .logo {
   display: flex;
   align-items: center;
   column-gap: 11px;
 }
+
 .header_wrapper .logo h5 {
   color: #111111;
   font-size: 2rem;
   font-weight: bold;
   font-family: "Quicksand", serif;
 }
-.navbar {
-}
+
+.navbar {}
+
 .navbar ul {
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 32px;
 }
+
 .navbar ul li a {
   font-size: 1.1rem;
   font-weight: bold;
   font-family: "Quicksand", serif;
 }
+
 .navbar ul li:nth-child(1) a {
   color: #fea301;
 }
+
 .navbar ul li:nth-child(2) a {
   color: #01acfd;
 }
+
 .navbar ul li:nth-child(3) a {
   color: #05d4df;
 }
+
 .navbar ul li:nth-child(4) a {
   color: #5d58ef;
 }
@@ -77,19 +91,23 @@ header {
   cursor: pointer;
   transition: all linear 0.3s;
 }
+
 .header_wrapper .nav_button:hover {
   background-color: #5d58ef;
 }
+
 /*Nav Section End*/
 /*Banner Styling Start*/
 #banner {
   margin-top: 20px;
 }
+
 .hero_wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
+
 .hero_text h1 {
   font-weight: bold;
   font-size: 3.3rem;
@@ -101,6 +119,7 @@ header {
 .hero_text h1 .first_span {
   color: #fea301;
 }
+
 .hero_text h1 .second_span {
   color: #01acfd;
 }
@@ -111,6 +130,7 @@ header {
   font-family: "Quicksand", serif;
   margin-bottom: 24px;
 }
+
 .hero_text .hero_button {
   color: white;
   font-size: 1.1rem;
@@ -123,13 +143,16 @@ header {
   transition: all linear 0.3s;
   cursor: pointer;
 }
+
 .hero_text .hero_button:hover {
   background-color: #01acfd;
 }
+
 .hero_image {
   display: flex;
   justify-content: flex-end;
 }
+
 /*Banner Styling End*/
 
 /*Curriculum Styling Start*/
@@ -137,6 +160,7 @@ header {
   background-image: url(/assets/bg.png);
   background-repeat: no-repeat;
 }
+
 #curriculum h1 {
   text-align: center;
   color: #000000;
@@ -146,39 +170,44 @@ header {
   margin-top: 60px;
   margin-bottom: 80px;
 }
+
 #curriculum .curriculum_wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
   margin-bottom: 80px;
 }
+
 .curriculum_card {
   border: 1.5px solid #DEF5FF;
   border-radius: 19px;
-  background: radial-gradient(circle at top center, #def5ff 0%, #ffffff 40%);
-
+  background: linear-gradient(to bottom, #def5ff, #ffffff);
 }
 
 .curriculum_cardtwo {
   border: 1.5px solid #FFF4DC;
   border-radius: 19px;
-  background: radial-gradient(circle at top center, #FFF4DC 0%, #ffffff 40%);
+  background: linear-gradient(to bottom, #FFF4DC, #ffffff);
 
 }
+
 .curriculum_cardthree {
   border: 1.5px solid #F2E8FF;
   border-radius: 19px;
-  background: radial-gradient(circle at top center, #F2E8FF 0%, #ffffff 40%);
+  background: linear-gradient(to bottom, #F2E8FF, #ffffff);
 
 }
 
 .card_wrapper {
   text-align: center;
+  padding: 0 20px;
 }
+
 .card_wrapper img {
   padding-top: 52px;
   padding-bottom: 32px;
 }
+
 .card_wrapper h3 {
   color: #202020;
   font-size: 1.5rem;
@@ -191,6 +220,7 @@ header {
   color: #808080;
   font-size: 1rem;
   font-weight: 600;
+  line-height: 1.5rem;
   font-family: "Quicksand", serif;
   margin-bottom: 33px;
 }
@@ -221,47 +251,71 @@ header {
   font-family: "Quicksand", serif;
   margin-bottom: 33px;
 }
+
 .curriculum_arrow {
-    /* text-align: center; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 10px;
-    margin-bottom: 60px;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 60px;
 }
+
 .curriculum_arrow button {
-    background-color: #FEA301;
-    /* padding: 17px; */
-    border-radius: 50%;
-    border: transparent;
-    height: 60px;
-    width: 60px;
-    color: white;
-    cursor: pointer;
-    transition: all linear 0.3s;
+  background-color: #FEA301;
+  /* padding: 17px; */
+  border-radius: 50%;
+  border: transparent;
+  height: 60px;
+  width: 60px;
+  color: white;
+  cursor: pointer;
+  transition: all linear 0.3s;
 }
+
 .curriculum_arrow button:hover {
-    color: black;
-    background-color: #01acfd;
+  color: black;
+  background-color: #01acfd;
 }
+
 /*Curriculum Styling End*/
+
+
+/*Our Story Start*/
+#ourStory {
+  background-image: url(/assets/bg.png);
+  background-repeat: no-repeat;
+}
+#ourStory h2{
+  color: #000000;
+  font-size: 2.6rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+  margin-bottom: 80px;
+}
+/*Our Story End*/
+
 
 /*Footer Start*/
 #footer {
   background-color: #01acfd;
 }
+
 .footer_content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   padding: 120px 0;
 }
+
 .footer_left_wrapper .footer-logo {
   display: flex;
   column-gap: 10px;
   align-items: center;
   margin-bottom: 35px;
 }
+
 .footer-logo-title h3 {
   color: white;
   font-family: "Quicksand", serif;
@@ -269,14 +323,17 @@ header {
   font-weight: bold;
   line-height: 2rem;
 }
+
 .footer_left_wrapper p {
   color: white;
   font-family: "Quicksand", serif;
   font-size: 1rem;
 }
+
 .footer-links {
   margin: 0 auto;
 }
+
 .footer-links h3 {
   color: white;
   font-size: 1.5rem;
@@ -284,17 +341,19 @@ header {
   font-family: "Quicksand", serif;
   margin-bottom: 32px;
 }
+
 .footer-links ul li {
   margin-bottom: 20px;
 }
+
 .footer-links ul li a {
   color: white;
   font-size: 1.2rem;
   font-family: "Quicksand", serif;
 }
 
-.footer-social {
-}
+.footer-social {}
+
 .footer-social h3 {
   color: white;
   font-size: 1.5rem;
@@ -302,6 +361,7 @@ header {
   font-family: "Quicksand", serif;
   margin-bottom: 32px;
 }
+
 .social-image {
   display: flex;
   column-gap: 11px;
