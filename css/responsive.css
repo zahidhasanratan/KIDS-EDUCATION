@@ -2,12 +2,7 @@
   .marque_container {
     display: none;
   }
-  .header_wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10px;
-    align-items: center;
-  }
+
   .header_wrapper .logo h5 {
     display: none;
   }
@@ -30,9 +25,37 @@
   }
   .header_wrapper {
     border: 1px solid orange;
-    padding: 15px 30px;
-    margin: -20px;
-  }
+    padding: 15px 11px;
+    margin: -20px 0;
+    width: 100%;
+}
+.hero_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 15px;
+    align-items: center;
+}
+.hero_text h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Quicksand", serif;
+    margin-bottom: 24px;
+    color: #111111;
+}
+.hero_text p {
+    color: #111111;
+    font-size: 1rem;
+    font-family: "Quicksand", serif;
+    margin-bottom: 24px;
+}
+.hero_text{
+    order: 2;
+    text-align: center;
+    margin-top: 30px;
+}
+.hero_image img{
+    width: 100%;
+}
   #curriculum h1 {
     text-align: center;
     color: #000000;
